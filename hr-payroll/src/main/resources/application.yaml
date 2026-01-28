@@ -4,3 +4,12 @@ server:
 spring:
   application:
     name: hr-payroll
+  cloud:
+    discovery:
+      client:
+        simple:
+          instances:
+            hr-worker:
+              - uri: http://localhost:8001
+              - uri: http://localhost:8002
+
