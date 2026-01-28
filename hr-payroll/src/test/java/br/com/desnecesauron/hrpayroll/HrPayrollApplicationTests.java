@@ -1,4 +1,4 @@
-package br.com.desnecesauron.hr_payroll;
+package br.com.desnecesauron.hrpayroll;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
